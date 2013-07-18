@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Paziente Anziano</title>
+
+	<link rel="stylesheet" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/movies-app.css">
+</head>
+<body>
+<div class="contenitore">
+	<div class="swiper-container swiper-content">
+    	<img src="img/Slide_APP_Paz_Anz_09.jpg" width="1024" height="768" border="0">
+    	<map name="Map">
+          <area shape="rect" coords="967,13,1011,57" href="index.html">
+        </map>
+		<div class="swiper-container swiper-nav">
+        <button id="choose1" class="btn-danger-f"  onclick="spostati(2)"></button>
+        <button id="choose2" class="btn-danger-c"  onclick="spostati(3)"></button>
+        <button id="choose3" class="btn-danger-c"  onclick="spostati(4)"></button>
+        <button id="choose4" class="btn-danger-c"  onclick="spostati(6)"></button>
+        <button id="choose5" class="btn-danger-c"  onclick="spostati(9)"></button>
+        <button id="choose6" class="btn-danger-c"  onclick="spostati(10)"></button>
+        <button id="choose7" class="btn-danger-c"  onclick="spostati(13)"></button>
+        <button id="choose8" class="btn-danger-c"  onclick="spostati(15)"></button>
+        <button id="choose9" class="btn-danger-c"  onclick="spostati(19)"></button>
+        <button id="choose10" class="btn-danger-c"  onclick="spostati(20)"></button>
+        <button id="choose11" class="btn-danger-l"  onclick="spostati(21)"></button>
+	</div>
+        
+	</div>
+</div>	
+	<!--<script src="js/jquery.min.js"></script>
+	<script src="js/idangerous.swiper-2.0.min.js"></script>
+	<script src="js/movies-app.js"></script>-->
+    <script>
+	function spostati(dove){
+		//$('.swiper-content').swiper().swipeTo(dove);
+		document.location.href = 'slide'+dove+'.html';
+	}
+	</script>
+</body>
+</html>
